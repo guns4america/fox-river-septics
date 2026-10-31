@@ -10,3 +10,15 @@
 
 /* BBB customer review section */
 .reviews-section{background:#f3f5f1}.reviews-heading{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:32px}.reviews-heading>div:first-child{max-width:680px}.reviews-heading p{color:var(--muted)}.reviews-score{display:flex;flex-direction:column;align-items:flex-end;white-space:nowrap}.reviews-score strong{font-size:33px;line-height:1.15}.reviews-score span,.stars{color:#b57e2f;letter-spacing:2px}.reviews-score small{font-size:12px;color:var(--muted)}.review-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:19px}.review-card{display:flex;flex-direction:column;min-height:244px;padding:27px;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 4px 16px #0b343409}.review-card p{font-size:16px;line-height:1.65;margin-top:18px;flex:1}.review-by strong,.review-by span{display:block}.review-by span{font-size:12px;color:var(--muted)}.review-disclosure{font-size:12px;color:var(--muted);margin:21px 0}.reviews-section .btn{width:max-content}@media(max-width:800px){.review-grid{grid-template-columns:1fr}.review-card{min-height:auto}.reviews-heading{align-items:start;flex-direction:column;gap:12px}.reviews-score{align-items:flex-start}}
+
+/* Brand refresh based on supplied Fox River Septics logo */
+:root{--ink:#25343c;--dark:#153d53;--muted:#526a77;--gold:#e48000;--tint:#eef5f9;--line:#d8e4ec}
+.topbar{background:#fff}.brand-logo{width:145px;height:68px;object-fit:contain;display:block}.logo{min-width:145px}
+.footer-logo{width:230px;height:145px;object-fit:contain;background:white;border-radius:10px;display:block}
+.hero{background:linear-gradient(125deg,#073e63,#076b9b)}
+.hero h1 em,.eyebrow,.kicker{color:#f49a25}
+.btn.gold,.mobile-call{background:#e48000;color:#fff}.btn.dark,.nav-cta{background:#0874b5}
+.proof strong{color:#0874b5}.text-link,.stars,.reviews-score span{color:#d87800}
+.quote-panel,.contact{background:#08577b}.card-icon{color:#e48000}
+footer{background:#103547}.reviews-section{background:#eef5f9}
+@media(max-width:700px){.brand-logo{width:119px;height:60px}.logo{min-width:119px}.footer-logo{width:205px;height:132px}}
